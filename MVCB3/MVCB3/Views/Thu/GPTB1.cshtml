@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "GPTB1";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>GPTB1</h2>
+@using(Html.BeginForm())
+            {
+                <input type="text" name="HSa"/>
+                <input type="text" name="HSb"/>
+                <input type="submit" value="Giải Phương Trình"/>
+            }
+<h3> Nghiệm của phương trình là: @ViewBag.NghiemPT</h3>

@@ -8,6 +8,9 @@ namespace MVCB4.Models
     public class Student
     {
         public void InfoStudent()
+        {
+            return 
+        }
 
             
     }
