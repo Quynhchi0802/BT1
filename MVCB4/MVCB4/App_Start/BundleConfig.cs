@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace buoi2
+namespace MVCB4
 {
     public class BundleConfig
     {
