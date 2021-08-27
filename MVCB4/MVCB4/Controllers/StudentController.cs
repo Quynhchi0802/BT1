@@ -13,10 +13,22 @@ namespace MVCB4.Controllers
         {
             return View();
         }
-        public ActionResult GetInfor (string HoTen, string Tuoi, string Lop)
+        public ActionResult GetInfor()
         {
             return View();
-            
+        }
+        [HttpPost]
+        
+        public ActionResult GetInfor (string HoTen, double Tuoi, double Lop)
+        {
+            //return View();
+            ViewBag.hovaten = HoTen;
+            ViewBag.tuoi = Tuoi;
+            ViewBag.lop = Lop;
+            return View();
+
+
+
         }
     }
 }
