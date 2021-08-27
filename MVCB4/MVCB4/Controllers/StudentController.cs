@@ -13,9 +13,10 @@ namespace MVCB4.Controllers
         {
             return View();
         }
-        public ActionResult GetInfor ()
+        public ActionResult GetInfor (string HoTen, string Tuoi, string Lop)
         {
             return View();
+            
         }
     }
 }
